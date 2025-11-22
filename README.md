@@ -16,12 +16,12 @@ The repository includes:
 The controller cycles through six states (S1–S6).  
 Each state runs for a fixed number of clock cycles:
 
-- S1 → 7 seconds  
-- S2 → 2 seconds  
-- S3 → 5 seconds  
-- S4 → 2 seconds  
-- S5 → 3 seconds  
-- S6 → 2 seconds  
+- S1 --> 7 seconds  
+- S2 --> 2 seconds  
+- S3 --> 5 seconds  
+- S4 --> 2 seconds  
+- S5 --> 3 seconds  
+- S6 --> 2 seconds  
 
 For each state, the module drives four sets of 3-bit traffic lights:
 - light_M1
@@ -30,9 +30,9 @@ For each state, the module drives four sets of 3-bit traffic lights:
 - light_S
 
 Each light uses:
-- 3'b100 → RED  
-- 3'b010 → YELLOW  
-- 3'b001 → GREEN
+- 3'b100 --> RED  
+- 3'b010 --> YELLOW  
+- 3'b001 --> GREEN
 
   ---
 
@@ -47,10 +47,9 @@ The testbench includes:
 
 ---
 
-## State Diagram (Conceptual)
+## State Diagram 
 
 The FSM transitions in the following order:
 
-S1 → S2 → S3 → S4 → S5 → S6 → back to S1
----
+S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> back to S1
 
