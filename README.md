@@ -1,7 +1,3 @@
-# traffic-light-controller-verilog
-Traffic Light Controller implemented in Verilog HDL using a 6-state FSM with timing counters. Includes a Verilog testbench, clock generator, reset logic, and VCD waveform dumping for simulation.
-# Traffic Light Controller (Verilog HDL)
-
 This project implements a traffic light controller using Verilog HDL.  
 The design is based on a 6-state finite state machine (FSM) that controls
 four different light outputs: M1, M2, MT, and S. Each state represents a
