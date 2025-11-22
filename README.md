@@ -7,7 +7,9 @@ different traffic phase with specific timing requirements.
 The repository includes:
 - Verilog RTL design 
 - Testbench 
-- waveform 
+- waveform
+
+  ---
 
 ## Design Overview
 
@@ -30,7 +32,25 @@ For each state, the module drives four sets of 3-bit traffic lights:
 Each light uses:
 - 3'b100 → RED  
 - 3'b010 → YELLOW  
-- 3'b001 → GREEN  
+- 3'b001 → GREEN
 
-## Simulation Waveform
-![Waveform](images/Screenshot%20(230).png)
+  ---
+
+  
+## 3. Testbench Details
+
+The testbench includes:
+- A free-running clock  
+- Reset sequencing  
+- `$dumpfile` and `$dumpvars` for waveform generation  
+- Automatic simulation finish
+
+---
+
+## State Diagram (Conceptual)
+
+The FSM transitions in the following order:
+
+S1 → S2 → S3 → S4 → S5 → S6 → back to S1
+---
+
