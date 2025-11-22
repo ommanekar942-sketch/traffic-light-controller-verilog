@@ -37,7 +37,7 @@ Each light uses:
   ---
 
   
-## 3. Testbench Details
+## Testbench Details
 
 The testbench includes:
 - A free-running clock  
