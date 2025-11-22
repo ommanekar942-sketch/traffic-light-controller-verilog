@@ -31,3 +31,6 @@ Each light uses:
 - 3'b100 → RED  
 - 3'b010 → YELLOW  
 - 3'b001 → GREEN  
+
+## Simulation Waveform
+![Waveform](images/Screenshot%20(230).png)
