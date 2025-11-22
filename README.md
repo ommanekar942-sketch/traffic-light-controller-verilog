@@ -1,3 +1,4 @@
+# Traffic Light Controller (Verilog HDL)
 This project implements a traffic light controller using Verilog HDL.  
 The design is based on a 6-state finite state machine (FSM) that controls
 four different light outputs: M1, M2, MT, and S. Each state represents a
